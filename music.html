@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="music.css">
+</head>
+
+<body>
+    <div class="musicDiv">
+        <div class="imgDiv">
+            <img class="images" src="images/img_1.jpeg" alt="img" height="350" width="350">
+            <h4 class="text">Radha Krishna song .mp3</h4>
+        </div>
+
+        <div class="timeDurationDiv">
+            <input class="rangeSlider" type="range" value="0" step="any">
+        </div>
+
+        <div class="btnDiv">
+            <img class="previousBtn btn " src="images/back_img.png" alt="back">
+            <img class="start btn" src="images/off_dimg.png" alt="off" height="30" width="30">
+            <img class="nextBtn btn" src="images/next_img.png" alt="next">
+            <div class="musicDiv">
+                <audio class="audios" src="musics/Chalo Re Man Shri Vrindavan Dham.mp3" type="audio/mp3"></audio>
+            </div>
+
+            <div class="input songs">
+                <input type="range" min="0" max="1" value="0.1" step="any">
+            </div>
+
+        </div>
+    </div>
+    <script src="music.js"></script>
+</body>
+
+</html>
